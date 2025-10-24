@@ -12,16 +12,70 @@ body, html{
 
 .contenedor{
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     background-color: aliceblue;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
 }
 
 .logo-principal{
-    position: absolute;
-    top: 1px;
-    right: 650px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
     width: 300px;
     height: 350px;
 }
+.foto-flotante-izq {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+
+    background-color: #00CAD4;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.foto-flotante-der{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    width: 150px;
+    height: 150px;
+
+        background-color: #00CAD4;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.boton-redireccion {
+    display: inline-block;
+    padding: 12px 25px;
+
+    background-color: #00CAD4;
+
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-top: 20px;
+    border: 3px solid #00CAD4;
+    transition: all 0.2s ease;
+}
+
+.boton-redireccion:hover {
+    background-color: #00b1c4;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.boton-redireccion:active {
+    background-color: #0093a0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+}
+
