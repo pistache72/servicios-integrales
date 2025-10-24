@@ -26,9 +26,7 @@ body, html{
     height: 350px;
 }
 .foto-flotante-izq {
-    position: absolute;
-    top: 50px;
-    left: 50px;
+    
     width: 150px;
     height: 150px;
 
@@ -40,9 +38,7 @@ body, html{
 
 
 .foto-flotante-der{
-    position: absolute;
-    top: 50px;
-    left: 750px;
+    
     width: 150px;
     height: 150px;
 
@@ -98,3 +94,4 @@ body, html{
         margin-bottom: 10px;
     }
 }
+
