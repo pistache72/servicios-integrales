@@ -79,3 +79,22 @@ body, html{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
 }
 
+
+@media (max width:600px) {
+    .contenedor {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .foto-flotante-izq, .foto-flotante-der{
+        position: static;
+        display: inline-block;
+        width: 40%;
+        height: 100px;
+        margin: 5px;
+    }
+
+    .contenedor-fotos-flotantes {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
