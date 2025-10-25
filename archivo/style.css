@@ -8,6 +8,7 @@ body, html{
     align-items: center;
     background: url(fondo\ de\ color.jpg) center center;
     background-size: cover;
+     overflow-x: hidden;
 }
 
 .contenedor{
@@ -94,4 +95,5 @@ body, html{
         margin-bottom: 10px;
     }
 }
+
 
