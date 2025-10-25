@@ -13,7 +13,7 @@ body, html{
 
 .contenedor{
     text-align: center;
-    padding: 30px;
+    padding: 40px 20px 30px 20px;
     background-color: aliceblue;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
@@ -80,7 +80,8 @@ body, html{
 @media (max width:600px) {
     .contenedor {
         width: 90%;
-        margin-top: 50px;
+        margin: 30px auto;
+        min-height: 400px;
     }
     .foto-flotante-izq, .foto-flotante-der{
         position: static;
@@ -95,5 +96,6 @@ body, html{
         margin-bottom: 10px;
     }
 }
+
 
 
